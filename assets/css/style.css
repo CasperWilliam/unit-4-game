@@ -1,0 +1,60 @@
+#topper {
+    font-size: 100px;
+    background-color: gray;
+}
+
+#instructions {
+    Width: 50%;
+    font-size: 30px;
+    background-color: gray;
+
+}
+
+.display-number-container {
+    display: flex;
+    width: fit-content;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+    display: flex;
+}
+
+.win-loss-container {
+    width: 200px;
+    height: 120px;
+    display: flex;
+}
+
+.container-item {
+    width: 25%;
+    height: 50px;
+    margin: 3px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.display-number, .goal, .user-goal, .wins, .losses, .win-number-item, .loss-number-item{
+    font-size: 80px;
+    margin-left: 80px;
+    background-color: gray; 
+}
+
+.wins {
+    font-size: 80px;
+    margin-left: 80px; 
+}
+.losses {
+    font-size: 80px;
+    margin-left: 80px;
+}
+
+body {
+    background-image: url("../images/infintyCollectorBackground.webp");
+}
